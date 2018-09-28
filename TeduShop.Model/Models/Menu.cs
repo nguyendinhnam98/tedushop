@@ -22,7 +22,7 @@ namespace TeduShop.Model.Models
 
         [Required]
         public int GroupID { set; get; }
-
+        //Khóa ngoại
         [ForeignKey("GroupID")]
         public virtual MenuGroup MenuGroup { set; get; }
 
